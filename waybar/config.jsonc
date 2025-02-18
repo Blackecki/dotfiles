@@ -60,6 +60,7 @@
     //--------------------------------------------------------------------------------
 
     "modules-right": [
+	"backlight",
         "wireplumber",
         "bluetooth",
         "network",
@@ -144,6 +145,10 @@
         "format-disconnected": "⚠",
         "on-click": "kitty --class nmtui -e nmtui",
 	    "tooltip-format": "{essid}"
+    },
+    "backlight": {
+        "format": "{percent}  {icon}",
+        "format-icons": ["󰃞", "󰃟", "󰃠"]
     },
 
     "wireplumber": {
