@@ -143,8 +143,8 @@
     "network": {
         "format-wifi": "",
         "format-disconnected": "⚠",
-        "on-click": "kitty --class nmtui -e nmtui",
-	    "tooltip-format": "{essid}"
+        "on-click": "alacritty -t nmtui -e nmtui", //kitty --class nmtui -e nmtu
+        "tooltip-format": "{essid}"
     },
     "backlight": {
         "format": "{percent}  {icon}",
