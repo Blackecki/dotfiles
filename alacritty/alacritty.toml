@@ -9,5 +9,12 @@ decorations = "Full"
 decorations_theme_variant = "Light" # "Dark"
 
 [font]
-
 size = 13.0
+
+
+[cursor]
+style = "Underline"
+
+[colors.cursor]
+text = "0x000000"  # Cursor text color (black)
+cursor = "0xFFFFFF" # Cursor background color (white)
